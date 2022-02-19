@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb:active {
   background-color: #2155cc;
 }
 .header__navbar .burger .bar {
-  width: 35px;
+  width: 28px;
   height: 3px;
   background-color: #030a1b;
   margin: 5px 0;
