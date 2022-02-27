@@ -866,7 +866,7 @@ body::-webkit-scrollbar-thumb:active {
   }
 
   .header__content {
-    background-image: url("/images/header__img.png");
+    background-image: url("header__img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
