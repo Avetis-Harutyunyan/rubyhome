@@ -866,12 +866,14 @@ body::-webkit-scrollbar-thumb:active {
   }
 
   .header__content {
-    background-image: url("header__img.png");
+    background-image: url("../images/header__img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     padding-bottom: 20px;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.123);
   }
   .header__content .hdr .content__text_item {
     text-align: center;
@@ -1088,6 +1090,7 @@ body::-webkit-scrollbar-thumb:active {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    row-gap: 10px;
   }
 }
 @media screen and (min-width: 993px) {
