@@ -413,7 +413,11 @@ body {
                         font-size: 16px;
                         transition: 0.2s ease;
                         &:hover {
-                            color: #e61e14;
+                            color: #7e7e7e;
+                        }
+
+                        &.heart-active {
+                            color: rgb(255, 0, 0);
                         }
                     }
                 }

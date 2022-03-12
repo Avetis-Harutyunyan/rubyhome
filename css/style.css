@@ -451,7 +451,10 @@ body::-webkit-scrollbar-thumb:active {
   transition: 0.2s ease;
 }
 .properties__items .properties_item .item_info .item__title p:nth-child(2):hover {
-  color: #e61e14;
+  color: #7e7e7e;
+}
+.properties__items .properties_item .item_info .item__title p:nth-child(2).heart-active {
+  color: red;
 }
 .properties__items .properties_item .item_info .location {
   margin-top: 10px;
