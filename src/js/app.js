@@ -4,14 +4,14 @@ function navSide() {
     const closeBtn = document.querySelector("#closeBtn");
     const closeNavWithBody = document.querySelector("body");
 
-    burger.addEventListener("click", () =>{
+    burger.addEventListener("click", () => {
         menuNav.classList.add("nav-active");
 
         // body to left
         closeNavWithBody.classList.add("left");
     });
 
-    closeBtn.addEventListener("click", () =>{
+    closeBtn.addEventListener("click", () => {
         menuNav.classList.remove("nav-active");
         closeNavWithBody.classList.remove("left");
     });
@@ -30,9 +30,25 @@ function homeSelected() {
     const heartIcon = document.querySelectorAll(".heart_icon");
 
     heartIcon.forEach(item => {
-        item.addEventListener("click", function() {
+        item.addEventListener("click", function () {
             item.classList.toggle("heart-active");
         });
     });
 }
 homeSelected();
+
+// slider
+new Swiper(".blog__items", {
+    slidesPerView: 1,
+    spaceBetween: 5,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    },
+    breakpoints: {
+        940: {
+            slidesPerView: 2
+        }
+    }
+});

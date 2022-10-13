@@ -163,13 +163,13 @@
     .blog__items {
         .blog_item {
             .people__block {
-                display: flex;
-                justify-content: center;
-                text-align: center;
                 .people {
                     flex-direction: column;
+                    margin: 0 auto;
                     .people_name {
+                        margin-top: 10px;
                         margin-left: 0;
+                        text-align: center;
                     }
                 }
                 .blog__icon {
